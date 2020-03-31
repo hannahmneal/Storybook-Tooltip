@@ -1,0 +1,96 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ant-popover {
+  transition: all 0.5s ease;
+}
+
+/* Hannah Neal: If we want the tooltip to have an arrow, use this code here and ajust the position with margins. This shows a centered, top arrow: */
+
+// .ant-popover-arrow {
+//   position: absolute;
+//   top: -5px;
+//   right: 8px;
+//   border-left: 40px solid transparent;
+//   border-right: 40px solid transparent;
+//   // border-bottom: 50px solid #363639; // Very dark gray background
+//   border-bottom: 50px solid #1D5D7D; // access course button blue
+//   content: " ";
+//   font-size: 0;
+//   line-height: 0;
+//   margin-right: 25%;
+//   margin-top: -10px;
+//   width: 0;
+// }
+
+.ant-popover-inner {
+  display: visible;
+  position: absolute;
+  text-align: left;
+  background-color: #363639; // Very dark gray background
+  /*
+  background-color: #ffffff; // white
+  background-color: #F4F4F4; // table header gray
+  background-color: #1D5D7D; // access course button blue
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.3);
+  */
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.16), 0 1px 12px 0 rgba(0,0,0,0.18), 0 3px 5px 0 rgba(0,0,0,0.2);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #F4F4F4;
+}
+
+.ant-popover-inner-content {
+  // color: #363639; /* dark lettering */
+  color: #F4F4F4; // white lettering */
+}
+
+  // Tooltip info icon
+  .tooltip__hover {
+      display: inline-block;
+      color: #585a5c;
+      font-size: 14px;
+      margin: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: rgba(54,54,57,0.1);
+      margin: 0 1rem 0 0;
+      padding-top: 2px;
+      color: #363639;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .tooltip-popover {
+      transition: all 0.5s ease;
+  }
+
+  a {
+    color: #F4F4F4;
+    align-items: center;
+    background-color: #1D5D7D;
+    border-radius: 4px;
+    display: flex;
+    height: 34px;
+    width: 144px;
+    justify-content: center;
+    line-height: 19px;
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
