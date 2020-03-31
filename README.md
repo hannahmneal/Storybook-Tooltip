@@ -5,7 +5,7 @@ This is a custom tooltip component built using React's `createPortal` hook. This
 
 [Tooltip Demo](src/images/TooltipDemo.png)
 
-You can also download a movie version here: (https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/My%20Movie%20-%20Small.mov)
+You can also download a movie version here: [Tooltip Movie](https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/My%20Movie%20-%20Small.mov)
 
 ## Available Scripts
 
