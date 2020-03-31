@@ -3,8 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## `Description`
 This is a custom tooltip component built using React's `createPortal` hook. This hook allows us to create a "sister" DOM node at the level of the "root" node but in the React DOM hierarchy, the two nodes are not entirely independent - the "sister" node made with `createPortal` (called "portal-root" in this project) continues to listen for actions on the "root" node. This makes components such as portals or tooltips like this one much easier to establish and manage.
 
-[Tooltip Demo] (https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/Tooltip%20Demo.png)
-[TooltipMovie] (https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/My%20Movie%20-%20Small.mov)
+![Tooltip Demo] (https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/Tooltip%20Demo.png)
+
+You can also download a movie version here: (https://github.com/hannahmneal/Storybook-Tooltip/blob/docs/My%20Movie%20-%20Small.mov)
 
 ## Available Scripts
 
